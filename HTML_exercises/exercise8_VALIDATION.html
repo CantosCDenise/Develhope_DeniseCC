@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 8 VALIDATION</title>
+    </head>
+    <body>
+        <form action="">
+            <label for="email">Your email: </label>
+            <input type="text" name="email" id="email" required> <br>
+
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" required> <br>
+
+            <label for="firstname">First name: </label>
+            <input type="text" name="firstname" id="firstname" required>
+            <label for="lastname">Last name: </label>
+            <input type="text" name="lastname" id="lastname" required> <br>
+
+            <label for="birthdate">Date of birth: </label>
+            <input type="date" name="birthdate" id="birthdate" required> <br>
+
+            <label for="telephone">Telephone number: </label>
+            <input type="number" name="telephone" id="telephone" required> <br>
+
+            <div>
+            <label for="plans">Choose your plan:</label>
+            <select name="plans" id="plans" required>
+                <option value="0">Free plan</option>
+            <optgroup label="Monthly"></optgroup>
+                <option value="50">50€</option>
+                <option value="100">100€</option>
+                <option value="150">150€</option>
+            </optgroup>
+            </select>
+            <label for="proplan">Pro Plan</label>
+            <input type="checkbox" name="proplan" id="proplan">
+        </div>
+
+            <label for="creditcard">Credit card number</label>
+            <input type="text" name="creditcard" id="creditcard"  maxlength="16" required> <br>
+
+            <label for="cvc">CVC</label>
+            <input type="text" name="cvc" id="cvc" maxlength="3" required> <br>     <!--He cambiado a text porque intentado limitar la cantidad de num con el tipo number no funciona 
+                                                                                    el maxlength, y probando con el min y max limita el valor total no la cantidad de numeros.-->
+
+            <label for="expirationdate">Expiration date</label>
+            <input type="text" name="expirationdate" id="expirationdate" maxlength="5" required > <br>
+
+            <label for="address">Billing address</label>
+            <input type="text" name="address" id="address" required> <br>      
+
+            <input type="submit" value="Submit">
+            
+        </form>
+    </body>
+</html>
