@@ -1,0 +1,90 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    width: 300px;
+    height: 400px;
+}
+
+.igual{
+    display: grid;
+    grid-row: 3/7;
+    grid-column: 4;
+    background-color: rgba(255, 0, 0, 0.507);
+    text-align: center;
+    align-items: center;
+    border: 1px solid grey;
+}
+
+.igual p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.resultado{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1/5;
+    background-color: rgb(91, 96, 109);
+    text-align: right;
+    color: white;
+
+}
+
+.resultado p{
+        margin-right: 15px;
+        font-size: 20px;
+}
+
+.suma{
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    background-color: rgba(136, 138, 151, 0.658);
+    text-align: center;
+    align-items: center;
+    border: 1px solid grey;
+}
+.resta{
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    background-color: rgba(136, 138, 151, 0.658);
+    text-align: center;
+    align-items: center;
+    border: 1px solid grey;
+}
+.multiplica{
+    display: grid;
+    grid-column: 3;
+    grid-row: 2;
+    background-color: rgba(136, 138, 151, 0.658);
+    text-align: center;
+    align-items: center;
+    border: 1px solid grey;
+}
+.division{
+    display: grid;
+    grid-column: 4;
+    grid-row: 2;
+    background-color: rgba(136, 138, 151, 0.658);
+    text-align: center;
+    align-items: center;
+    border: 1px solid grey;
+}
+.numbers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-row: 3/7;
+    grid-column: 1/4;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    border: 1px solid grey;    
+}
+
+.numbers div{
+    display: grid;
+    border: 1px solid black;    
+}
