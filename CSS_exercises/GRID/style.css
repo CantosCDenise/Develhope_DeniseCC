@@ -80,11 +80,65 @@
     grid-column: 1/4;
     background-color: white;
     text-align: center;
-    align-items: center;
+    align-items: stretch;
     border: 1px solid grey;    
 }
 
 .numbers div{
-    display: grid;
-    border: 1px solid black;    
+    border: 1px solid grey;    
+}
+
+
+.num7{
+   grid-column: 1;
+   grid-row: 1; 
+}
+.num8{
+    grid-column: 2;
+    grid-row: 1;
+}
+.num9{
+    grid-column: 3;
+    grid-row: 1;
+}
+.num4{
+    grid-column: 1;
+    grid-row: 2;
+}
+.num5{
+    grid-column: 2;
+    grid-row: 2;
+}
+.num6{
+    grid-column: 3;
+    grid-row: 2;
+}
+.num1{
+    grid-column: 1;
+    grid-row: 3;
+}
+.num2{
+    grid-column: 2;
+    grid-row: 3;
+}
+.num3{
+    grid-column: 3;
+    grid-row: 3;
+}
+.num0{
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.punto{
+    grid-column: 2;
+    grid-row: 4;
+}
+.ac{
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.numbers p{
+    text-align: center;
 }
