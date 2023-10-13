@@ -6,11 +6,18 @@ body {
   .grid{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
   }
   section {
     padding: 2em;
     margin: 1em;
+  }
+  
+  ul {
+    padding: 0;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;   
   }
   
   #green {
@@ -31,6 +38,7 @@ body {
     background-color: #ffff92;
   }
   
+  
   #red {
     grid-column: 3/5;
     grid-row: 2/4;
@@ -42,11 +50,7 @@ body {
     grid-row: 2/5;
     background-color: #98d2ff;
   }
-  
-  ul {
-    padding: 0;
-  }
-  
+    
   li {
     background-color: white;
     padding: 1em;
