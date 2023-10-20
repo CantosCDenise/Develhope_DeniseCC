@@ -7,5 +7,5 @@ const order = {
   }
 };
 
-const result = order.customer.address.city?.value;
-console.log(result);
+const checkCity = order.customer.address.city?.value;
+console.log(checkCity);
