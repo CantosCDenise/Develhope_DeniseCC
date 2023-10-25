@@ -53,4 +53,3 @@ class Person {
   person.firstName = 'Maria';
   person.lastName = 'Verdi';
   console.log(person.fullName);
-  console.log(person.age);
