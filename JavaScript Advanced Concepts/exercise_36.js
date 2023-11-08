@@ -1,9 +1,12 @@
 let callback = () => console.log("Hello")
 
 function repeatHello (callback){
-    setInterval(() => {
+    let id = setInterval(() => {
         callback();
     }, 1000);
+    setTimeout(() => {
+        clearInterval(id)
+      }, 5000);
 }
 
 repeatHello(callback);
