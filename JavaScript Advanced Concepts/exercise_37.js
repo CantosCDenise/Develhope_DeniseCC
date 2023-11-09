@@ -1,6 +1,5 @@
-const number = 15;
-
 let myPromise = new Promise((resolve, reject) => {
+    const number = 15;
     if (number > 10){
         resolve(number)
     }else {
