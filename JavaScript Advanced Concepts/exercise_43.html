@@ -1,0 +1,23 @@
+<html>
+  <body>
+    <div>LOCAL STORAGE</div>
+  </body>
+</html>
+
+<script>
+const user = {
+    id: 1,
+    name: "John",
+    age: 25,
+  };
+
+  function userStorage() {
+    localStorage.setItem("user", JSON.stringify(user));
+    console.log(JSON.parse(localStorage.getItem("user")));
+  }
+
+
+  userStorage();
+
+
+</script>
